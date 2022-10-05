@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Gloria Hallelujah";
   background-color: #040404;
   color: #fff;
   position: relative;
@@ -35,7 +35,7 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #f2dbb5;
   text-decoration: none;
 }
 
@@ -44,13 +44,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Peralta", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -71,17 +70,17 @@ h6 {
 }
 
 #header h1 {
-  font-size: 48px;
+  font-size: 52px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Cinzel", sans-serif;
 }
 
 #header h1 a,
 #header h1 a:hover {
-  color: #fff;
+  color: rgb(229, 15, 190);
   line-height: 1;
   display: inline-block;
 }
@@ -123,12 +122,12 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #c318d2;
 }
 
 @media (max-width: 992px) {
   #header h1 {
-    font-size: 36px;
+    font-size: 48px;
   }
 
   #header h2 {
@@ -164,7 +163,7 @@ h6 {
 
 #header.header-top h1 {
   margin-right: auto;
-  font-size: 36px;
+  font-size: 18px;
 }
 
 #header.header-top .container {
@@ -403,9 +402,10 @@ section .container {
 # About
 --------------------------------------------------------------*/
 .about-me .content h3 {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 26px;
-  color: #18d26e;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .about-me .content ul {
@@ -426,7 +426,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #d218b9;
   line-height: 0;
 }
 
@@ -457,7 +457,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: #ffffff;
   border-radius: 50px;
   line-height: 0;
 }
@@ -509,7 +509,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #f4a9f5;
 }
 
 /*--------------------------------------------------------------
@@ -620,7 +620,7 @@ section .container {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #d218b9;
 }
 
 /*--------------------------------------------------------------
@@ -647,7 +647,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: #db8e11;
   margin-bottom: 10px;
 }
 
@@ -680,8 +680,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #ffffff;
+  border: 2px solid #ffffff;
 }
 
 /*--------------------------------------------------------------
